@@ -163,13 +163,12 @@
     font-size: 14px;
     font-style: italic;
     font-weight: 400;
-    line-height: 150%; /* 21px */
+    line-height: 150%; 
     letter-spacing: 0.28px;
 }
 .announcement {
     display: flex;
-    /* width: 1440px; */
-    padding: 8px 562px;
+    padding: 8px 635px;
     align-items: flex-start;
     gap: 10px;
     background: var(--primaryskyblue, #2f80ed);
@@ -300,7 +299,7 @@
     line-height: 150%; /* 21px */
 }
 
-/* .hero-img-arrow {
+.hero-img-arrow {
     width: 1440px;
     height: 783px;
     flex-shrink: 0;
@@ -313,7 +312,7 @@
     border-left-style: solid;
     border-right-width: 562px;
     border-right-style: solid;
-} */
+}
 
 .hero-form {
     width: 415px;
@@ -387,8 +386,7 @@
     padding: 14px 6px 14px 10px;
     align-items: center;
     gap: 10px;
-    
-    color: var(--BLACK, #fafafa);
+     color: #fafafa;
     font-family: ABeeZee;
     font-size: 16px;
     font-style: normal;
